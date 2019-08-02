@@ -69,4 +69,37 @@ F 3 " ~" H 3200 3800 50  0001 C CNN
 	1    3200 3800
 	1    0    0    -1  
 $EndComp
+$Comp
+L Simbolo-ensayo:INT_1P2D MCB?
+U 1 1 5D440928
+P 4250 3750
+F 0 "MCB?" H 4250 4075 50  0000 C CNN
+F 1 "INT_1P2D" H 4250 3984 50  0000 C CNN
+F 2 "" H 4250 3750 50  0001 C CNN
+F 3 "" H 4250 3750 50  0001 C CNN
+	1    4250 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5D441970
+P 4900 3450
+F 0 "R?" V 5107 3450 50  0000 C CNN
+F 1 "R" V 5016 3450 50  0000 C CNN
+F 2 "" V 4830 3450 50  0001 C CNN
+F 3 "~" H 4900 3450 50  0001 C CNN
+	1    4900 3450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:DB9_Female_MountingHoles J?
+U 1 1 5D442DB3
+P 6050 3950
+F 0 "J?" H 6230 3952 50  0000 L CNN
+F 1 "DB9_Female_MountingHoles" H 6230 3861 50  0000 L CNN
+F 2 "" H 6050 3950 50  0001 C CNN
+F 3 " ~" H 6050 3950 50  0001 C CNN
+	1    6050 3950
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

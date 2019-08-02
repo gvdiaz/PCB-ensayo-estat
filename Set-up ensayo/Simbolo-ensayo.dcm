@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP INT_1P2D
+D Circuit breaker 1P2D
+K CIRCUIT BREAKER
+$ENDCMP
+#
+#End Doc Library
