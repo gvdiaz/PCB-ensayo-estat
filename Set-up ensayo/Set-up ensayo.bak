@@ -41,13 +41,13 @@ $EndComp
 $Comp
 L Mechanical:MountingHole_Pad H2
 U 1 1 5D42E927
-P 1200 4950
-F 0 "H2" H 1300 4999 50  0000 L CNN
-F 1 "MountingHole_Pad" H 1300 4908 50  0000 L CNN
-F 2 "" H 1200 4950 50  0001 C CNN
-F 3 "~" H 1200 4950 50  0001 C CNN
-F 4 "Fijación e interfaz eléctrica con chasis" H 1200 4950 50  0001 C CNN "Función"
-	1    1200 4950
+P 1200 5100
+F 0 "H2" H 1300 5149 50  0000 L CNN
+F 1 "MountingHole_Pad" H 1300 5058 50  0000 L CNN
+F 2 "" H 1200 5100 50  0001 C CNN
+F 3 "~" H 1200 5100 50  0001 C CNN
+F 4 "Fijación e interfaz eléctrica con chasis" H 1200 5100 50  0001 C CNN "Función"
+	1    1200 5100
 	1    0    0    -1  
 $EndComp
 $Comp
