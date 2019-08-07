@@ -91,7 +91,7 @@ L Device:R R1
 U 1 1 5D441970
 P 5550 3400
 F 0 "R1" V 5757 3400 50  0000 C CNN
-F 1 "R" V 5666 3400 50  0000 C CNN
+F 1 "15k" V 5666 3400 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 5480 3400 50  0001 C CNN
 F 3 "~" H 5550 3400 50  0001 C CNN
 F 4 "Resistencia de medición de sensor" V 5550 3400 50  0001 C CNN "Función"
@@ -113,73 +113,73 @@ $EndComp
 $Comp
 L Connector:TestPoint_Probe TP3
 U 1 1 5D483898
-P 3700 3900
-F 0 "TP3" H 3853 4001 50  0000 L CNN
-F 1 "TestPoint_Probe" H 3853 3910 50  0000 L CNN
-F 2 "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Horizontal" H 3900 3900 50  0001 C CNN
-F 3 "~" H 3900 3900 50  0001 C CNN
-F 4 "Interfaz eléctrica con punta de medición V1 osciloscopio" H 3700 3900 50  0001 C CNN "Función"
-	1    3700 3900
+P 3750 3300
+F 0 "TP3" H 3903 3401 50  0000 L CNN
+F 1 "TestPoint_Probe" H 3903 3310 50  0000 L CNN
+F 2 "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Horizontal" H 3950 3300 50  0001 C CNN
+F 3 "~" H 3950 3300 50  0001 C CNN
+F 4 "Interfaz eléctrica con punta de medición V1 osciloscopio" H 3750 3300 50  0001 C CNN "Función"
+	1    3750 3300
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector:TestPoint_Probe TP5
 U 1 1 5D484196
-P 5900 3850
-F 0 "TP5" H 6053 3951 50  0000 L CNN
-F 1 "TestPoint_Probe" H 6053 3860 50  0000 L CNN
-F 2 "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Horizontal" H 6100 3850 50  0001 C CNN
-F 3 "~" H 6100 3850 50  0001 C CNN
-F 4 "Interfaz eléctrica con punta de medición V2 osciloscopio" H 5900 3850 50  0001 C CNN "Función"
-	1    5900 3850
+P 5950 3250
+F 0 "TP5" H 6103 3351 50  0000 L CNN
+F 1 "TestPoint_Probe" H 6103 3260 50  0000 L CNN
+F 2 "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Horizontal" H 6150 3250 50  0001 C CNN
+F 3 "~" H 6150 3250 50  0001 C CNN
+F 4 "Interfaz eléctrica con punta de medición V2 osciloscopio" H 5950 3250 50  0001 C CNN "Función"
+	1    5950 3250
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector:TestPoint TP6
 U 1 1 5D4852D2
-P 5900 4350
-F 0 "TP6" H 5958 4468 50  0000 L CNN
-F 1 "TestPoint" H 5958 4377 50  0000 L CNN
-F 2 "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Horizontal" H 6100 4350 50  0001 C CNN
-F 3 "~" H 6100 4350 50  0001 C CNN
-F 4 "Interfaz eléctrica con GND de V2 osciloscopio" H 5900 4350 50  0001 C CNN "Función"
-	1    5900 4350
+P 6000 4200
+F 0 "TP6" H 6058 4318 50  0000 L CNN
+F 1 "TestPoint" H 6058 4227 50  0000 L CNN
+F 2 "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Horizontal" H 6200 4200 50  0001 C CNN
+F 3 "~" H 6200 4200 50  0001 C CNN
+F 4 "Interfaz eléctrica con GND de V2 osciloscopio" H 6000 4200 50  0001 C CNN "Función"
+	1    6000 4200
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector:TestPoint TP4
 U 1 1 5D4861BC
-P 3700 4300
-F 0 "TP4" H 3758 4418 50  0000 L CNN
-F 1 "TestPoint" H 3758 4327 50  0000 L CNN
-F 2 "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Horizontal" H 3900 4300 50  0001 C CNN
-F 3 "~" H 3900 4300 50  0001 C CNN
-F 4 "Interfaz eléctrica con GND de V1 osciloscopio" H 3700 4300 50  0001 C CNN "Función"
-	1    3700 4300
+P 3700 4200
+F 0 "TP4" H 3758 4318 50  0000 L CNN
+F 1 "TestPoint" H 3758 4227 50  0000 L CNN
+F 2 "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Horizontal" H 3900 4200 50  0001 C CNN
+F 3 "~" H 3900 4200 50  0001 C CNN
+F 4 "Interfaz eléctrica con GND de V1 osciloscopio" H 3700 4200 50  0001 C CNN "Función"
+	1    3700 4200
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector:TestPoint_Alt TP1
 U 1 1 5D486AED
-P 2850 3950
-F 0 "TP1" H 2908 4068 50  0000 L CNN
-F 1 "TestPoint_Alt" H 2908 3977 50  0000 L CNN
-F 2 "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Horizontal" H 3050 3950 50  0001 C CNN
-F 3 "~" H 3050 3950 50  0001 C CNN
-F 4 "Interfaz eléctrica con potencial positivo tester" H 2850 3950 50  0001 C CNN "Función"
-	1    2850 3950
+P 2900 3300
+F 0 "TP1" H 2958 3418 50  0000 L CNN
+F 1 "TestPoint_Alt" H 2958 3327 50  0000 L CNN
+F 2 "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Horizontal" H 3100 3300 50  0001 C CNN
+F 3 "~" H 3100 3300 50  0001 C CNN
+F 4 "Interfaz eléctrica con potencial positivo tester" H 2900 3300 50  0001 C CNN "Función"
+	1    2900 3300
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector:TestPoint TP2
 U 1 1 5D487102
-P 2850 4350
-F 0 "TP2" H 2908 4468 50  0000 L CNN
-F 1 "TestPoint" H 2908 4377 50  0000 L CNN
-F 2 "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Horizontal" H 3050 4350 50  0001 C CNN
-F 3 "~" H 3050 4350 50  0001 C CNN
-F 4 "Interfaz eléctrica con potencial negativo tester" H 2850 4350 50  0001 C CNN "Función"
-	1    2850 4350
+P 2850 4200
+F 0 "TP2" H 2908 4318 50  0000 L CNN
+F 1 "TestPoint" H 2908 4227 50  0000 L CNN
+F 2 "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Horizontal" H 3050 4200 50  0001 C CNN
+F 3 "~" H 3050 4200 50  0001 C CNN
+F 4 "Interfaz eléctrica con potencial negativo tester" H 2850 4200 50  0001 C CNN "Función"
+	1    2850 4200
 	1    0    0    -1  
 $EndComp
 Wire Notes Line
@@ -191,21 +191,9 @@ Wire Notes Line
 Wire Notes Line
 	1450 4500 1450 3200
 Wire Notes Line
-	2650 3600 2650 4500
-Wire Notes Line
 	2650 4500 3400 4500
 Wire Notes Line
-	3400 4500 3400 3600
-Wire Notes Line
-	3400 3600 2650 3600
-Wire Notes Line
-	3600 3600 3600 4500
-Wire Notes Line
 	3600 4500 4500 4500
-Wire Notes Line
-	4500 4500 4500 3600
-Wire Notes Line
-	4500 3600 3600 3600
 Wire Notes Line
 	4600 3050 4600 3800
 Wire Notes Line
@@ -214,14 +202,6 @@ Wire Notes Line
 	5300 3800 5300 3050
 Wire Notes Line
 	5300 3050 4600 3050
-Wire Notes Line
-	5600 3600 5600 4500
-Wire Notes Line
-	5600 4500 6800 4500
-Wire Notes Line
-	6800 4500 6800 3600
-Wire Notes Line
-	6800 3600 5600 3600
 Text Notes 1450 4600 0    50   ~ 0
 Interfaz con generador
 Text Notes 2650 4600 0    50   ~ 0
@@ -242,4 +222,108 @@ Wire Notes Line
 	8000 3400 6950 3400
 Text Notes 6950 4850 0    50   ~ 0
 Interfaz sensor
+Wire Wire Line
+	2300 3500 2350 3500
+Wire Wire Line
+	2900 3300 2900 3500
+Connection ~ 2900 3500
+Wire Wire Line
+	2900 3500 3750 3500
+Wire Wire Line
+	3750 3300 3750 3500
+Connection ~ 3750 3500
+Wire Wire Line
+	3750 3500 4700 3500
+Wire Wire Line
+	2100 3700 2100 4350
+Wire Wire Line
+	2100 4350 2850 4350
+Wire Wire Line
+	2850 4350 3700 4350
+Connection ~ 2850 4350
+Wire Wire Line
+	6000 4350 6900 4350
+Wire Wire Line
+	6900 4350 6900 4650
+Wire Wire Line
+	6900 4650 7500 4650
+Connection ~ 6000 4350
+Wire Wire Line
+	7200 4050 6900 4050
+Wire Wire Line
+	6900 4050 6900 4350
+Connection ~ 6900 4350
+Wire Wire Line
+	5400 3400 5200 3400
+Wire Wire Line
+	5700 3400 5950 3400
+Wire Wire Line
+	7050 3400 7050 3850
+Wire Wire Line
+	7050 3850 7200 3850
+NoConn ~ 5200 3600
+Wire Wire Line
+	5950 3250 5950 3400
+Connection ~ 5950 3400
+Wire Wire Line
+	5950 3400 7050 3400
+Wire Wire Line
+	3700 4200 3700 4350
+Connection ~ 3700 4350
+Wire Wire Line
+	3700 4350 6000 4350
+Wire Notes Line
+	5800 4500 5800 3050
+Wire Notes Line
+	5800 3050 6800 3050
+Wire Notes Line
+	6800 3050 6800 4500
+Wire Notes Line
+	5800 4500 6800 4500
+Wire Wire Line
+	6000 4200 6000 4350
+Wire Notes Line
+	3600 3050 4500 3050
+Wire Notes Line
+	3600 3050 3600 4500
+Wire Notes Line
+	4500 3050 4500 4500
+Wire Notes Line
+	3400 3050 2650 3050
+Wire Notes Line
+	2650 3050 2650 4500
+Wire Notes Line
+	3400 3050 3400 4500
+Text Label 2100 4350 0    50   ~ 0
+GND
+Text Label 6400 3400 0    50   ~ 0
+VZs1
+Text Label 1200 2850 0    50   ~ 0
+GND
+Text Label 1200 5200 0    50   ~ 0
+GND
+Text Label 8350 5250 0    50   ~ 0
+GND
+Text Label 8300 2900 0    50   ~ 0
+GND
+$Comp
+L power:VAC #PWR?
+U 1 1 5D4B4B6A
+P 2350 3400
+F 0 "#PWR?" H 2350 3300 50  0001 C CNN
+F 1 "VAC" H 2350 3675 50  0000 C CNN
+F 2 "" H 2350 3400 50  0001 C CNN
+F 3 "" H 2350 3400 50  0001 C CNN
+	1    2350 3400
+	1    0    0    -1  
+$EndComp
+Connection ~ 2350 3500
+Wire Wire Line
+	2350 3500 2900 3500
+Text Label 5300 3400 0    50   ~ 0
+Vi
+Wire Wire Line
+	2850 4200 2850 4350
+Wire Wire Line
+	2350 3400 2350 3500
 $EndSCHEMATC
