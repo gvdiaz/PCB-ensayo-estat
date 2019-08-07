@@ -223,8 +223,6 @@ Wire Notes Line
 Text Notes 6950 4850 0    50   ~ 0
 Interfaz sensor
 Wire Wire Line
-	2300 3500 2350 3500
-Wire Wire Line
 	2900 3300 2900 3500
 Connection ~ 2900 3500
 Wire Wire Line
@@ -306,24 +304,19 @@ Text Label 8350 5250 0    50   ~ 0
 GND
 Text Label 8300 2900 0    50   ~ 0
 GND
-$Comp
-L power:VAC #PWR?
-U 1 1 5D4B4B6A
-P 2350 3400
-F 0 "#PWR?" H 2350 3300 50  0001 C CNN
-F 1 "VAC" H 2350 3675 50  0000 C CNN
-F 2 "" H 2350 3400 50  0001 C CNN
-F 3 "" H 2350 3400 50  0001 C CNN
-	1    2350 3400
-	1    0    0    -1  
-$EndComp
-Connection ~ 2350 3500
-Wire Wire Line
-	2350 3500 2900 3500
 Text Label 5300 3400 0    50   ~ 0
 Vi
 Wire Wire Line
 	2850 4200 2850 4350
+NoConn ~ 7200 3650
+NoConn ~ 7200 3750
+NoConn ~ 7200 3950
+NoConn ~ 7200 4150
+NoConn ~ 7200 4250
+NoConn ~ 7200 4350
+NoConn ~ 7200 4450
 Wire Wire Line
-	2350 3400 2350 3500
+	2300 3500 2900 3500
+Text Label 2400 3500 0    50   ~ 0
+VAC
 $EndSCHEMATC
