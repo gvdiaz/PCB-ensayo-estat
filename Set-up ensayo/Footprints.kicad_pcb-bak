@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 5)
+    (drawings 0)
     (tracks 0)
     (zones 0)
     (modules 14)
@@ -696,13 +696,5 @@
       (rotate (xyz 0 0 0))
     )
   )
-
-  (gr_text "Placa para probar footprints\nFecha: 08/08/2019\nAutor: Gustavo V. Diaz" (at 111.76 85.09) (layer F.SilkS)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (gr_line (start 203.2 76.2) (end 88.9 76.2) (layer Edge.Cuts) (width 0.05) (tstamp 5D4BF918))
-  (gr_line (start 203.2 139.7) (end 203.2 76.2) (layer Edge.Cuts) (width 0.05))
-  (gr_line (start 88.9 139.7) (end 203.2 139.7) (layer Edge.Cuts) (width 0.05))
-  (gr_line (start 88.9 76.2) (end 88.9 139.7) (layer Edge.Cuts) (width 0.05))
 
 )
