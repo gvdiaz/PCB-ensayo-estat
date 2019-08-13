@@ -6,12 +6,12 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Esquema de PCB de ensayo estático"
-Date "2019-07-28"
-Rev "V. 0.1"
+Date "2019-08-13"
+Rev "V. 1"
 Comp "Negrete"
 Comment1 "Autor: Gustavo V. Diaz"
 Comment2 "Buenos Aires - Argentina"
-Comment3 ""
+Comment3 "Fecha inicio: 28/07/2018"
 Comment4 ""
 $EndDescr
 $Comp
