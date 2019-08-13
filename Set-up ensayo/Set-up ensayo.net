@@ -1,23 +1,23 @@
 (export (version D)
   (design
     (source "/home/tanita/Documentos/Proyecto balanceadora/PCB-ensayo-estat/Set-up ensayo/Set-up ensayo.sch")
-    (date "mié 07 ago 2019 06:51:46 -03")
-    (tool "Eeschema 5.1.2-f72e74a~84~ubuntu16.04.1")
+    (date "mar 13 ago 2019 06:56:59 -03")
+    (tool "Eeschema 5.1.4-e60b266~84~ubuntu16.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
         (title "Esquema de PCB de ensayo estático")
         (company Negrete)
-        (rev "V. 0.1")
-        (date 2019-07-28)
+        (rev "V. 1")
+        (date 2019-08-13)
         (source "Set-up ensayo.sch")
         (comment (number 1) (value "Autor: Gustavo V. Diaz"))
         (comment (number 2) (value "Buenos Aires - Argentina"))
-        (comment (number 3) (value ""))
+        (comment (number 3) (value "Fecha inicio: 28/07/2018"))
         (comment (number 4) (value "")))))
   (components
     (comp (ref H1)
       (value MountingHole_Pad)
-      (footprint MountingHole:MountingHole_2.2mm_M2_ISO7380_Pad)
+      (footprint "Footprints proyecto:MountingHole_3.2mm_M3_ISO14580_Pad")
       (datasheet ~)
       (fields
         (field (name Función) "Fijación e interfaz eléctrica con chasis"))
@@ -26,7 +26,7 @@
       (tstamp 5D42DD18))
     (comp (ref H3)
       (value MountingHole_Pad)
-      (footprint MountingHole:MountingHole_2.2mm_M2_ISO7380_Pad)
+      (footprint "Footprints proyecto:MountingHole_3.2mm_M3_ISO14580_Pad")
       (datasheet ~)
       (fields
         (field (name Función) "Fijación e interfaz eléctrica con chasis"))
@@ -35,7 +35,7 @@
       (tstamp 5D42E2DA))
     (comp (ref H2)
       (value MountingHole_Pad)
-      (footprint MountingHole:MountingHole_2.2mm_M2_ISO7380_Pad)
+      (footprint "Footprints proyecto:MountingHole_3.2mm_M3_ISO14580_Pad")
       (datasheet ~)
       (fields
         (field (name Función) "Fijación e interfaz eléctrica con chasis"))
@@ -44,7 +44,7 @@
       (tstamp 5D42E927))
     (comp (ref H4)
       (value MountingHole_Pad)
-      (footprint MountingHole:MountingHole_2.2mm_M2_ISO7380_Pad)
+      (footprint "Footprints proyecto:MountingHole_3.2mm_M3_ISO14580_Pad")
       (datasheet ~)
       (fields
         (field (name Función) "Fijación e interfaz eléctrica con chasis"))
@@ -53,7 +53,7 @@
       (tstamp 5D42EA1B))
     (comp (ref J1)
       (value Conn_Coaxial)
-      (footprint Connector_Coaxial:BNC_TEConnectivity_1478204_Vertical)
+      (footprint "Footprints proyecto:BNC_TEConnectivity_1478204_Vertical")
       (datasheet " ~")
       (fields
         (field (name Función) "Interfaz eléctrica con generador de señales"))
@@ -62,7 +62,7 @@
       (tstamp 5D42F04D))
     (comp (ref MCB1)
       (value INT_1P2D)
-      (footprint digikey-footprints:Switch_Toggle_ATE1D-2M3-10-Z)
+      (footprint "Footprints proyecto:Switch_Toggle_ATE1D-2M3-10-Z")
       (fields
         (field (name Función) "Interruptor HMI para cambio enter ajuste y ensayo"))
       (libsource (lib Simbolo-ensayo) (part INT_1P2D) (description "Circuit breaker 1P2D"))
@@ -70,7 +70,7 @@
       (tstamp 5D440928))
     (comp (ref R1)
       (value 15k)
-      (footprint Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal)
+      (footprint "Footprints proyecto:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal")
       (datasheet ~)
       (fields
         (field (name Función) "Resistencia de medición de sensor"))
@@ -79,7 +79,7 @@
       (tstamp 5D441970))
     (comp (ref J2)
       (value DB9_Female_MountingHoles)
-      (footprint Connector_Dsub:DSUB-9_Female_Horizontal_P2.77x2.84mm_EdgePinOffset4.94mm_Housed_MountingHolesOffset7.48mm)
+      (footprint "Footprints proyecto:DSUB-9_Female_Horizontal_P2.77x2.84mm_EdgePinOffset4.94mm_Housed_MountingHolesOffset7.48mm")
       (datasheet " ~")
       (fields
         (field (name Función) "Interfaz eléctrica con sensores"))
@@ -88,7 +88,7 @@
       (tstamp 5D442DB3))
     (comp (ref TP3)
       (value TestPoint_Probe)
-      (footprint Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Horizontal)
+      (footprint "Footprints proyecto:PinHeader_1x01_P1.00mm_Horizontal")
       (datasheet ~)
       (fields
         (field (name Función) "Interfaz eléctrica con punta de medición V1 osciloscopio"))
@@ -97,7 +97,7 @@
       (tstamp 5D483898))
     (comp (ref TP5)
       (value TestPoint_Probe)
-      (footprint Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Horizontal)
+      (footprint "Footprints proyecto:PinHeader_1x01_P1.00mm_Horizontal")
       (datasheet ~)
       (fields
         (field (name Función) "Interfaz eléctrica con punta de medición V2 osciloscopio"))
@@ -106,7 +106,7 @@
       (tstamp 5D484196))
     (comp (ref TP6)
       (value TestPoint)
-      (footprint Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Horizontal)
+      (footprint "Footprints proyecto:PinHeader_1x01_P1.00mm_Horizontal")
       (datasheet ~)
       (fields
         (field (name Función) "Interfaz eléctrica con GND de V2 osciloscopio"))
@@ -115,7 +115,7 @@
       (tstamp 5D4852D2))
     (comp (ref TP4)
       (value TestPoint)
-      (footprint Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Horizontal)
+      (footprint "Footprints proyecto:PinHeader_1x01_P1.00mm_Horizontal")
       (datasheet ~)
       (fields
         (field (name Función) "Interfaz eléctrica con GND de V1 osciloscopio"))
@@ -124,7 +124,7 @@
       (tstamp 5D4861BC))
     (comp (ref TP1)
       (value TestPoint_Alt)
-      (footprint Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Horizontal)
+      (footprint "Footprints proyecto:PinHeader_1x01_P1.00mm_Horizontal")
       (datasheet ~)
       (fields
         (field (name Función) "Interfaz eléctrica con potencial positivo tester"))
@@ -133,7 +133,7 @@
       (tstamp 5D486AED))
     (comp (ref TP2)
       (value TestPoint)
-      (footprint Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Horizontal)
+      (footprint "Footprints proyecto:PinHeader_1x01_P1.00mm_Horizontal")
       (datasheet ~)
       (fields
         (field (name Función) "Interfaz eléctrica con potencial negativo tester"))
