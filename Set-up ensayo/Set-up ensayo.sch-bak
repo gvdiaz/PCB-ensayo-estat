@@ -252,7 +252,7 @@ Wire Wire Line
 	6900 4050 6900 4350
 Connection ~ 6900 4350
 Wire Wire Line
-	5400 3400 5200 3400
+	5400 3400 5300 3400
 Wire Wire Line
 	5700 3400 5950 3400
 Wire Wire Line
@@ -319,4 +319,32 @@ Wire Wire Line
 	2300 3500 2900 3500
 Text Label 2400 3500 0    50   ~ 0
 VAC
+$Comp
+L Device:R_POT RV1
+U 1 1 5D5409ED
+P 5550 3750
+F 0 "RV1" V 5435 3750 50  0000 C CNN
+F 1 "R_POT" V 5344 3750 50  0000 C CNN
+F 2 "Footprints proyecto:Potentiometer_Vishay_248GJ-249GJ_Single_Vertical" H 5550 3750 50  0001 C CNN
+F 3 "~" H 5550 3750 50  0001 C CNN
+F 4 "Resistencia auxiliar variable" V 5550 3750 50  0001 C CNN "Función"
+	1    5550 3750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5300 3400 5300 3750
+Wire Wire Line
+	5300 3750 5400 3750
+Connection ~ 5300 3400
+Wire Wire Line
+	5300 3400 5200 3400
+Wire Wire Line
+	5550 3600 5950 3600
+Wire Wire Line
+	5950 3600 5950 3400
+Wire Wire Line
+	5700 3750 5950 3750
+Wire Wire Line
+	5950 3750 5950 3600
+Connection ~ 5950 3600
 $EndSCHEMATC
