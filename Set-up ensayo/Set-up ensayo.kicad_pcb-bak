@@ -123,6 +123,16 @@
     (via_drill 0.4)
     (uvia_dia 0.3)
     (uvia_drill 0.1)
+    (add_net "Net-(MCB1-Pad3)")
+  )
+
+  (net_class Señal ""
+    (clearance 0.2)
+    (trace_width 1)
+    (via_dia 0.8)
+    (via_drill 0.4)
+    (uvia_dia 0.3)
+    (uvia_drill 0.1)
     (add_net /GND)
     (add_net /VAC)
     (add_net /VZs1)
@@ -136,7 +146,6 @@
     (add_net "Net-(J2-Pad9)")
     (add_net "Net-(JP1-Pad2)")
     (add_net "Net-(JP2-Pad2)")
-    (add_net "Net-(MCB1-Pad3)")
   )
 
   (module "Footprints proyecto:PinHeader_1x02_P1.00mm_Vertical" (layer F.Cu) (tedit 59FED738) (tstamp 5D557FE3)
