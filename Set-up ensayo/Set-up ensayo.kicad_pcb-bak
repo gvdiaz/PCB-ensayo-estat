@@ -233,7 +233,7 @@
   )
 
   (module "Footprints proyecto:Potentiometer_Vishay_248GJ-249GJ_Single_Vertical" (layer F.Cu) (tedit 5A3D4993) (tstamp 5D546C8A)
-    (at 121.92 90.17 270)
+    (at 121.92 97.79 270)
     (descr "Potentiometer, vertical, Vishay 248GJ-249GJ Single, http://www.vishay.com/docs/57054/248249.pdf")
     (tags "Potentiometer vertical Vishay 248GJ-249GJ Single")
     (path /5D5409ED)
@@ -276,7 +276,7 @@
   )
 
   (module "Footprints proyecto:MountingHole_3.2mm_M3_ISO14580_Pad" (layer F.Cu) (tedit 56D1B4CB) (tstamp 5D52DEB1)
-    (at 105.41 81.28)
+    (at 101.6 80.01)
     (descr "Mounting Hole 3.2mm, M3, ISO14580")
     (tags "mounting hole 3.2mm m3 iso14580")
     (path /5D42DD18)
@@ -297,7 +297,7 @@
   )
 
   (module "Footprints proyecto:MountingHole_3.2mm_M3_ISO14580_Pad" (layer F.Cu) (tedit 56D1B4CB) (tstamp 5D52DEB9)
-    (at 104.14 123.19)
+    (at 102.87 124.46)
     (descr "Mounting Hole 3.2mm, M3, ISO14580")
     (tags "mounting hole 3.2mm m3 iso14580")
     (path /5D42E927)
@@ -318,7 +318,7 @@
   )
 
   (module "Footprints proyecto:MountingHole_3.2mm_M3_ISO14580_Pad" (layer F.Cu) (tedit 56D1B4CB) (tstamp 5D53D001)
-    (at 145.415 123.825)
+    (at 143.51 124.46)
     (descr "Mounting Hole 3.2mm, M3, ISO14580")
     (tags "mounting hole 3.2mm m3 iso14580")
     (path /5D42E2DA)
@@ -339,7 +339,7 @@
   )
 
   (module "Footprints proyecto:MountingHole_3.2mm_M3_ISO14580_Pad" (layer F.Cu) (tedit 56D1B4CB) (tstamp 5D52DEC9)
-    (at 143.51 80.645)
+    (at 143.51 80.01)
     (descr "Mounting Hole 3.2mm, M3, ISO14580")
     (tags "mounting hole 3.2mm m3 iso14580")
     (path /5D42EA1B)
@@ -359,8 +359,8 @@
       (net 1 /GND))
   )
 
-  (module "Footprints proyecto:BNC_TEConnectivity_1478204_Vertical" (layer F.Cu) (tedit 5D51354B) (tstamp 5D53CEE2)
-    (at 106.68 99.06)
+  (module "Footprints proyecto:BNC_TEConnectivity_1478204_Vertical" (layer F.Cu) (tedit 5D51354B) (tstamp 5D5679B4)
+    (at 104.14 104.14)
     (descr "BNC female PCB mount 4 pin straight chassis connector http://www.te.com/usa-en/product-1-1478204-0.html")
     (tags "BNC female PCB mount 4 pin straight chassis connector ")
     (path /5D42F04D)
@@ -516,8 +516,8 @@
       (net 12 "Net-(MCB1-Pad3)"))
   )
 
-  (module "Footprints proyecto:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" (layer F.Cu) (tedit 5AE5139B) (tstamp 5D56784F)
-    (at 128.27 110.49 180)
+  (module "Footprints proyecto:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" (layer F.Cu) (tedit 5AE5139B) (tstamp 5D567901)
+    (at 128.27 114.3 180)
     (descr "Resistor, Axial_DIN0204 series, Axial, Horizontal, pin pitch=7.62mm, 0.167W, length*diameter=3.6*1.6mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0204 series Axial Horizontal pin pitch 7.62mm 0.167W length 3.6mm diameter 1.6mm")
     (path /5D441970)
