@@ -1,14 +1,14 @@
 (export (version D)
   (design
     (source "/home/tanita/Documentos/Proyecto balanceadora/PCB-ensayo-estat/Set-up ensayo/Set-up ensayo.sch")
-    (date "jue 15 ago 2019 06:18:12 -03")
+    (date "mar 20 ago 2019 07:13:54 -03")
     (tool "Eeschema 5.1.4-e60b266~84~ubuntu16.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
         (title "Esquema de PCB de ensayo estático")
         (company Negrete)
         (rev "V. 1")
-        (date 2019-08-13)
+        (date 2019-08-15)
         (source "Set-up ensayo.sch")
         (comment (number 1) (value "Autor: Gustavo V. Diaz"))
         (comment (number 2) (value "Buenos Aires - Argentina"))
@@ -88,7 +88,7 @@
       (tstamp 5D442DB3))
     (comp (ref TP3)
       (value TestPoint_Probe)
-      (footprint "Footprints proyecto:PinHeader_1x01_P1.00mm_Horizontal")
+      (footprint "Footprints proyecto:PinHeader_1x01_P2.54mm_Vertical")
       (datasheet ~)
       (fields
         (field (name Función) "Interfaz eléctrica con punta de medición V1 osciloscopio"))
@@ -97,7 +97,7 @@
       (tstamp 5D483898))
     (comp (ref TP5)
       (value TestPoint_Probe)
-      (footprint "Footprints proyecto:PinHeader_1x01_P1.00mm_Horizontal")
+      (footprint "Footprints proyecto:PinHeader_1x01_P2.54mm_Vertical")
       (datasheet ~)
       (fields
         (field (name Función) "Interfaz eléctrica con punta de medición V2 osciloscopio"))
@@ -106,7 +106,7 @@
       (tstamp 5D484196))
     (comp (ref TP6)
       (value TestPoint)
-      (footprint "Footprints proyecto:PinHeader_1x01_P1.00mm_Horizontal")
+      (footprint "Footprints proyecto:PinHeader_1x01_P2.54mm_Vertical")
       (datasheet ~)
       (fields
         (field (name Función) "Interfaz eléctrica con GND de V2 osciloscopio"))
@@ -115,7 +115,7 @@
       (tstamp 5D4852D2))
     (comp (ref TP4)
       (value TestPoint)
-      (footprint "Footprints proyecto:PinHeader_1x01_P1.00mm_Horizontal")
+      (footprint "Footprints proyecto:PinHeader_1x01_P2.54mm_Vertical")
       (datasheet ~)
       (fields
         (field (name Función) "Interfaz eléctrica con GND de V1 osciloscopio"))
@@ -124,7 +124,7 @@
       (tstamp 5D4861BC))
     (comp (ref TP1)
       (value TestPoint_Alt)
-      (footprint "Footprints proyecto:PinHeader_1x01_P1.00mm_Horizontal")
+      (footprint "Footprints proyecto:PinHeader_1x01_P2.54mm_Vertical")
       (datasheet ~)
       (fields
         (field (name Función) "Interfaz eléctrica con potencial positivo tester"))
@@ -133,7 +133,7 @@
       (tstamp 5D486AED))
     (comp (ref TP2)
       (value TestPoint)
-      (footprint "Footprints proyecto:PinHeader_1x01_P1.00mm_Horizontal")
+      (footprint "Footprints proyecto:PinHeader_1x01_P2.54mm_Vertical")
       (datasheet ~)
       (fields
         (field (name Función) "Interfaz eléctrica con potencial negativo tester"))
@@ -151,7 +151,7 @@
       (tstamp 5D5409ED))
     (comp (ref JP1)
       (value Jumper_NC_Small)
-      (footprint "Footprints proyecto:PinHeader_1x02_P1.00mm_Vertical")
+      (footprint "Footprints proyecto:PinHeader_1x02_P2.54mm_Vertical")
       (datasheet ~)
       (fields
         (field (name Función) "Jumper para configuración de resistencia fija"))
@@ -160,7 +160,7 @@
       (tstamp 5D552AB7))
     (comp (ref JP2)
       (value Jumper_NO_Small)
-      (footprint "Footprints proyecto:PinHeader_1x02_P1.00mm_Vertical")
+      (footprint "Footprints proyecto:PinHeader_1x02_P2.54mm_Vertical")
       (datasheet ~)
       (fields
         (field (name Función) "Jumper para configuración de resistencia variable"))
