@@ -116,7 +116,7 @@ U 1 1 5D483898
 P 3750 3300
 F 0 "TP3" H 3903 3401 50  0000 L CNN
 F 1 "TestPoint_Probe" H 3903 3310 50  0000 L CNN
-F 2 "Footprints proyecto:PinHeader_1x01_P2.54mm_Horizontal" H 3950 3300 50  0001 C CNN
+F 2 "Footprints proyecto:PinHeader_1x01_P2.54mm_Vertical" H 3950 3300 50  0001 C CNN
 F 3 "~" H 3950 3300 50  0001 C CNN
 F 4 "Interfaz eléctrica con punta de medición V1 osciloscopio" H 3750 3300 50  0001 C CNN "Función"
 	1    3750 3300
@@ -128,7 +128,7 @@ U 1 1 5D484196
 P 6550 3250
 F 0 "TP5" H 6703 3351 50  0000 L CNN
 F 1 "TestPoint_Probe" H 6703 3260 50  0000 L CNN
-F 2 "Footprints proyecto:PinHeader_1x01_P2.54mm_Horizontal" H 6750 3250 50  0001 C CNN
+F 2 "Footprints proyecto:PinHeader_1x01_P2.54mm_Vertical" H 6750 3250 50  0001 C CNN
 F 3 "~" H 6750 3250 50  0001 C CNN
 F 4 "Interfaz eléctrica con punta de medición V2 osciloscopio" H 6550 3250 50  0001 C CNN "Función"
 	1    6550 3250
@@ -140,7 +140,7 @@ U 1 1 5D4852D2
 P 6600 4200
 F 0 "TP6" H 6658 4318 50  0000 L CNN
 F 1 "TestPoint" H 6658 4227 50  0000 L CNN
-F 2 "Footprints proyecto:PinHeader_1x01_P2.54mm_Horizontal" H 6800 4200 50  0001 C CNN
+F 2 "Footprints proyecto:PinHeader_1x01_P2.54mm_Vertical" H 6800 4200 50  0001 C CNN
 F 3 "~" H 6800 4200 50  0001 C CNN
 F 4 "Interfaz eléctrica con GND de V2 osciloscopio" H 6600 4200 50  0001 C CNN "Función"
 	1    6600 4200
@@ -152,7 +152,7 @@ U 1 1 5D4861BC
 P 3700 4200
 F 0 "TP4" H 3758 4318 50  0000 L CNN
 F 1 "TestPoint" H 3758 4227 50  0000 L CNN
-F 2 "Footprints proyecto:PinHeader_1x01_P2.54mm_Horizontal" H 3900 4200 50  0001 C CNN
+F 2 "Footprints proyecto:PinHeader_1x01_P2.54mm_Vertical" H 3900 4200 50  0001 C CNN
 F 3 "~" H 3900 4200 50  0001 C CNN
 F 4 "Interfaz eléctrica con GND de V1 osciloscopio" H 3700 4200 50  0001 C CNN "Función"
 	1    3700 4200
@@ -164,7 +164,7 @@ U 1 1 5D486AED
 P 2900 3300
 F 0 "TP1" H 2958 3418 50  0000 L CNN
 F 1 "TestPoint_Alt" H 2958 3327 50  0000 L CNN
-F 2 "Footprints proyecto:PinHeader_1x01_P2.54mm_Horizontal" H 3100 3300 50  0001 C CNN
+F 2 "Footprints proyecto:PinHeader_1x01_P2.54mm_Vertical" H 3100 3300 50  0001 C CNN
 F 3 "~" H 3100 3300 50  0001 C CNN
 F 4 "Interfaz eléctrica con potencial positivo tester" H 2900 3300 50  0001 C CNN "Función"
 	1    2900 3300
@@ -176,7 +176,7 @@ U 1 1 5D487102
 P 2850 4200
 F 0 "TP2" H 2908 4318 50  0000 L CNN
 F 1 "TestPoint" H 2908 4227 50  0000 L CNN
-F 2 "Footprints proyecto:PinHeader_1x01_P2.54mm_Horizontal" H 3050 4200 50  0001 C CNN
+F 2 "Footprints proyecto:PinHeader_1x01_P2.54mm_Vertical" H 3050 4200 50  0001 C CNN
 F 3 "~" H 3050 4200 50  0001 C CNN
 F 4 "Interfaz eléctrica con potencial negativo tester" H 2850 4200 50  0001 C CNN "Función"
 	1    2850 4200
